@@ -99,8 +99,6 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .nav-link {
@@ -109,6 +107,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
