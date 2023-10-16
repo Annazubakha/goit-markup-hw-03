@@ -50,7 +50,6 @@ ul {
 }
 .list {
   list-style: none;
-  background-color: var(--primery-white-color);
   color: var(--secondary-text-color);
 }
 img {
@@ -239,7 +238,6 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  background-color: var(--primery-cloud-color);
 }
 .team-card {
   background-color: var(--primery-white-color);
