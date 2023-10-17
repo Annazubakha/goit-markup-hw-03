@@ -7,6 +7,11 @@
   --primery-cloud-color: #f4f4fd;
   --secondary-botton-color: #404bbf;
 }
+/**
+  |============================
+  | BASE
+  |============================
+*/
 body {
   display: flex;
   flex-direction: column;
@@ -14,8 +19,9 @@ body {
   font-family: var(--primery-font);
   color: var(--secondary-text-color);
   background-color: var(--primery-white-color);
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .main {
   flex-grow: 1;
@@ -60,7 +66,12 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-/* Website header */
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
 .header-section {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
@@ -81,7 +92,7 @@ img {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .nav-logo {
@@ -91,7 +102,7 @@ img {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .page-nav {
@@ -132,7 +143,11 @@ img {
   color: var(--secondary-botton-color);
 }
 
-/* Studio Section 1*/
+/**
+  |============================
+  | STUDIO SECTION 1
+  |============================
+*/
 .hero-section {
   background-color: var(--primery-text-color);
   padding-top: 188px;
@@ -146,7 +161,7 @@ img {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--primery-white-color);
 }
@@ -163,7 +178,7 @@ img {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   color: var(--primery-white-color);
   background-color: var(--primery-botton-color);
@@ -175,7 +190,11 @@ img {
   cursor: pointer;
 }
 
-/* Studio Section 2*/
+/**
+  |============================
+  | STUDIO SECTION 2
+  |============================
+*/
 .features-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -189,7 +208,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
 .features-list-text {
@@ -197,7 +216,11 @@ img {
   font-size: 16px;
   color: var(--secondary-text-color);
 }
-/* Studio Section 3*/
+/**
+  |============================
+  | STUDIO SECTION 3
+  |============================
+*/
 .work-section {
   padding-bottom: 120px;
 }
@@ -206,7 +229,7 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
@@ -216,7 +239,11 @@ img {
   display: flex;
   gap: 24px;
 }
-/* Studio Section 4*/
+/**
+  |============================
+  | STUDIO SECTION 4
+  |============================
+*/
 .team-section {
   padding: 120px 0;
 }
@@ -226,8 +253,7 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
-  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: var(--primery-text-color);
@@ -262,7 +288,11 @@ img {
   text-align: center;
   color: var(--secondary-text-color);
 }
-/* Portfolio*/
+/**
+  |============================
+  | PORTFOLIO
+  |============================
+*/
 .portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -300,7 +330,7 @@ img {
   margin-bottom: 8px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
 .portfolio-list-text {
@@ -314,7 +344,7 @@ img {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   color: var(--primery-botton-color);
   background-color: var(--primery-cloud-color);
@@ -326,13 +356,17 @@ img {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   color: var(--primery-white-color);
   background-color: var(--secondary-botton-color);
   border: 1px solid transparent;
 }
 
-/* Website footer */
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
 
 .footer-section {
   background-color: var(--primery-text-color);
@@ -351,7 +385,7 @@ img {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primery-botton-color);
 }
